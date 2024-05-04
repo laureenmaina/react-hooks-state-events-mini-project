@@ -9,7 +9,7 @@ function TaskList({tasks, handleDeleteClick}) {
       <Task key={text} category={category} text={text} deleteTask={handleDeleteClick}/>
     )})
  
-    
+
   return (
     <div className="tasks">
       {taskList}
